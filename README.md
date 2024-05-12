@@ -2,15 +2,15 @@
 
 Proyek ini adalah sebuah aplikasi web berbasis CakePHP dan AdminLte yang dirancang untuk manajemen data siswa. Fitur-fitur utama proyek ini meliputi:
 
-1. **Multi-Level Login:**
+1. **Multi-Level Login**
 
-2. **Dashboard Siswa:**
+2. **Dashboard Siswa**
 
-3. **Fitur Cetak Laporan:**
+3. **Fitur Cetak Laporan**
 
-4. **CRUD Operations:**
+4. **CRUD Operations**
 
-5. **Integrasi Chart.js:**
+5. **Integrasi Chart.js**
 
 ## Teknologi yang Digunakan:
 - CakePHP Framework
