@@ -1,53 +1,33 @@
-# CakePHP Application Skeleton
+# student-dashboard-cakephp
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+Proyek ini adalah sebuah aplikasi web berbasis CakePHP dan AdminLte yang dirancang untuk manajemen data siswa. Fitur-fitur utama proyek ini meliputi:
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 5.x.
+1. **Multi-Level Login**
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+2. **Dashboard Siswa**
 
-## Installation
+3. **Fitur Cetak Laporan**
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+4. **CRUD Operations**
 
-If Composer is installed globally, run
+5. **Integrasi Chart.js**
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+## Teknologi yang Digunakan:
+- CakePHP Framework
+- MySQL Database
+- AdminLte Template
+- Chart.js untuk visualisasi data
+- Bootstrap untuk tata letak dan desain responsif
+- HTML, CSS, dan JavaScript untuk antarmuka pengguna
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit the environment specific `config/app_local.php` and set up the
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
-
-## Layout
-
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+## Struktur Proyek:
+1. **App:**
+   - Controllers: Kontroler untuk logika aplikasi.
+   - Models: Model untuk interaksi dengan database.
+   - Views: Tampilan halaman web dan template.
+2. **Config:**
+   - Konfigurasi aplikasi, database, dan routing.
+3. **Webroot:**
+   - Berkas statis seperti gambar, JavaScript, dan CSS.
+4. **Plugins:**
+   - Plugin tambahan jika diperlukan.
