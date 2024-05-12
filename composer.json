@@ -11,7 +11,7 @@
         "cakephp/cakephp": "^5.0.1",
         "cakephp/migrations": "^4.0.0",
         "cakephp/plugin-installer": "^2.0",
-        "mobiledetect/mobiledetectlib": "^3.74",
+        "mobiledetect/mobiledetectlib": "^4.8",
         "nesbot/carbon": "^3.3",
         "vinipaulino/datatables-bs5": "^1.11"
     },
